@@ -5,7 +5,7 @@ import requests
 import random
 
 OLLAMA_URL = "http://localhost:11434/api/generate"
-MODEL_NAME = "gemma3.2"
+MODEL_NAME = "gemma3"
 
 # Load sample medical QA dataset
 df = pd.read_csv("cleaned_pubmedqa.csv")
