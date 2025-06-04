@@ -20,3 +20,5 @@ PubMedQA/
 </p>
 
 Once the data is extracted, it is saved in a .csv format 
+<p>The extracted data is then loaded into the main.py file where the extracted data is kept as reference for the main script, the main script is run based on Gemma3 which is used from <a href="https://ollama.com/"><i><b>Ollama</b></i></a> where the Ollama hosts the LLM locally and the Ollama API is linked to the code.</p>
+The requirements are given in thie "requirements.txt" file which can be installed using "pip install -r requirements.txt"
