@@ -3,7 +3,7 @@ import os
 from tqdm import tqdm  # progress bar
 
 BASE_DIR = "./PubMedQA"
-OUTPUT_CSV = "cleaned_pubmedqa.csv"
+OUTPUT_CSV = "cleaned_pubmedqa.csv"  
 folders = ["pqa_artificial", "pqa_labeled", "pqa_unlabeled"]
 
 qa_pairs = []
@@ -38,3 +38,4 @@ print(f"\n✅ Extracted {len(qa_pairs)} QA pairs from {file_counter} files.")
 df_qa = pd.DataFrame(qa_pairs)
 df_qa.to_csv(OUTPUT_CSV, index=False)
 print(f"📁 Saved cleaned data to '{OUTPUT_CSV}'")
+
