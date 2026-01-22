@@ -1,3 +1,4 @@
+# Every required package for the imports are mentioned in the requirements
 import tkinter as tk
 from tkinter import scrolledtext, filedialog, ttk
 import pandas as pd
@@ -252,4 +253,5 @@ output_box.tag_config("warn", foreground="red")
 
 toggle_theme()
 window.mainloop()
+
 
