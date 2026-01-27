@@ -5,7 +5,7 @@ import pandas as pd
 import requests
 import threading
 import time
-import json
+import json 
 import pyttsx3
 import subprocess
 from reportlab.lib.pagesizes import letter
@@ -253,5 +253,6 @@ output_box.tag_config("warn", foreground="red")
 
 toggle_theme()
 window.mainloop()
+
 
 
