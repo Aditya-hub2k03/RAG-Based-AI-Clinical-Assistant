@@ -36,7 +36,7 @@ It retrieves data from trusted sources like **PubMed**, **NICE guidelines**, and
 ## Getting Started
 
 ### Prerequisites
-- **Python 3.x** — for running the project  
+- **Python 3.10** — for running the project  
 - **Ollama** — for hosting the local language model via API  
 - **Pip** — for installing dependencies  
 
