@@ -16,7 +16,7 @@ CSV_PATH = "cleaned_pubmedqa.csv"
 OLLAMA_API_URL = "http://localhost:11434/api/generate" # Any other llm hosting could be used here!
 
 # ---------- DATA & TTS ----------
-df = pd.read_csv(CSV_PATH)
+df = pd.read_csv(CSV_PATH) 
 tts_engine = pyttsx3.init()
 tts_engine.setProperty('rate', 170)
 
