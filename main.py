@@ -10,7 +10,7 @@ import pyttsx3
 import subprocess
 from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
-
+ 
 # ---------- SETTINGS ----------
 CSV_PATH = "cleaned_pubmedqa.csv"
 OLLAMA_API_URL = "http://localhost:11434/api/generate" # Any other llm hosting could be used here!
@@ -253,6 +253,7 @@ output_box.tag_config("warn", foreground="red")
 
 toggle_theme()
 window.mainloop()
+
 
 
 
