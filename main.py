@@ -12,7 +12,7 @@ from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
  
 # ---------- SETTINGS ----------
-CSV_PATH = "cleaned_pubmedqa.csv"
+CSV_PATH = "cleaned_pubmedqa.csv" # Any other medical qa dataset could be used
 OLLAMA_API_URL = "http://localhost:11434/api/generate" # Any other llm hosting could be used here!
 
 # ---------- DATA & TTS ----------
