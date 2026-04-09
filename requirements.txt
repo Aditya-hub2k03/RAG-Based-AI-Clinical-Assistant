@@ -7,3 +7,4 @@ tkinter
 pillow
 pyttsx3
 reportlab
+  
