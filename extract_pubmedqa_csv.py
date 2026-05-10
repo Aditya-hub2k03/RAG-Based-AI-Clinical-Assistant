@@ -2,6 +2,7 @@ import pandas as pd
 import os
 from tqdm import tqdm  # progress bar
 
+//use only pubmedqa dataset for better results
 BASE_DIR = "./PubMedQA"
 OUTPUT_CSV = "cleaned_pubmedqa.csv"  
 folders = ["pqa_artificial", "pqa_labeled", "pqa_unlabeled"]
